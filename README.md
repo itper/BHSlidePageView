@@ -5,7 +5,7 @@
 
 可滑动情况下全局三个 View 实例,不可滑动是一个 View 实例.
 
-在 delegate 中会放回 contentView 如果为空,手动初始化并放回. status可以用来保存每个 view 的状态.
+在 delegate 中会放回 contentView,也就是每一个 tab 的内容 如果为空,手动初始化并返回.达到 view 的 reuse status可以用来保存每个 view 的状态.
 
 #####该方法在 SlidePage 将要显示新的页面的时候会被调用.
 
