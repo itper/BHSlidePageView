@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54900C291B83210000801A48 /* BHSlidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54900C241B83210000801A48 /* BHSlidePageView.m */; };
+		54900C2A1B83210000801A48 /* BHSlideViewTitleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 54900C261B83210000801A48 /* BHSlideViewTitleBar.m */; };
+		54900C2B1B83210000801A48 /* UIScrollView+BHForceStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 54900C281B83210000801A48 /* UIScrollView+BHForceStop.m */; };
 		549D8DCF1B79F02000F6BDAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 549D8DCE1B79F02000F6BDAD /* main.m */; };
 		549D8DD21B79F02000F6BDAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 549D8DD11B79F02000F6BDAD /* AppDelegate.m */; };
 		549D8DD51B79F02000F6BDAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549D8DD41B79F02000F6BDAD /* ViewController.m */; };
@@ -14,9 +17,6 @@
 		549D8DDA1B79F02000F6BDAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549D8DD91B79F02000F6BDAD /* Images.xcassets */; };
 		549D8DDD1B79F02000F6BDAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 549D8DDB1B79F02000F6BDAD /* LaunchScreen.xib */; };
 		549D8DE91B79F02000F6BDAD /* BHSlideViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 549D8DE81B79F02000F6BDAD /* BHSlideViewTests.m */; };
-		549D8DF91B79F05A00F6BDAD /* BHSlidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 549D8DF41B79F05A00F6BDAD /* BHSlidePageView.m */; };
-		549D8DFA1B79F05A00F6BDAD /* BHSlideViewTitleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 549D8DF61B79F05A00F6BDAD /* BHSlideViewTitleBar.m */; };
-		549D8DFB1B79F05A00F6BDAD /* UIScrollView+BHForceStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 549D8DF81B79F05A00F6BDAD /* UIScrollView+BHForceStop.m */; };
 		54C4DF981B83120C00672E3B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C4DF971B83120C00672E3B /* logo.png */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54900C231B83210000801A48 /* BHSlidePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHSlidePageView.h; sourceTree = "<group>"; };
+		54900C241B83210000801A48 /* BHSlidePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHSlidePageView.m; sourceTree = "<group>"; };
+		54900C251B83210000801A48 /* BHSlideViewTitleBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHSlideViewTitleBar.h; sourceTree = "<group>"; };
+		54900C261B83210000801A48 /* BHSlideViewTitleBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHSlideViewTitleBar.m; sourceTree = "<group>"; };
+		54900C271B83210000801A48 /* UIScrollView+BHForceStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+BHForceStop.h"; sourceTree = "<group>"; };
+		54900C281B83210000801A48 /* UIScrollView+BHForceStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+BHForceStop.m"; sourceTree = "<group>"; };
 		549D8DC91B79F02000F6BDAD /* BHSlideView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BHSlideView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		549D8DCD1B79F02000F6BDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		549D8DCE1B79F02000F6BDAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,12 +50,6 @@
 		549D8DE21B79F02000F6BDAD /* BHSlideViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BHSlideViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		549D8DE71B79F02000F6BDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		549D8DE81B79F02000F6BDAD /* BHSlideViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHSlideViewTests.m; sourceTree = "<group>"; };
-		549D8DF31B79F05A00F6BDAD /* BHSlidePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHSlidePageView.h; sourceTree = "<group>"; };
-		549D8DF41B79F05A00F6BDAD /* BHSlidePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHSlidePageView.m; sourceTree = "<group>"; };
-		549D8DF51B79F05A00F6BDAD /* BHSlideViewTitleBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHSlideViewTitleBar.h; sourceTree = "<group>"; };
-		549D8DF61B79F05A00F6BDAD /* BHSlideViewTitleBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHSlideViewTitleBar.m; sourceTree = "<group>"; };
-		549D8DF71B79F05A00F6BDAD /* UIScrollView+BHForceStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+BHForceStop.h"; sourceTree = "<group>"; };
-		549D8DF81B79F05A00F6BDAD /* UIScrollView+BHForceStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+BHForceStop.m"; sourceTree = "<group>"; };
 		54C4DF971B83120C00672E3B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +71,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54900C221B8320C900801A48 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				54900C231B83210000801A48 /* BHSlidePageView.h */,
+				54900C241B83210000801A48 /* BHSlidePageView.m */,
+				54900C251B83210000801A48 /* BHSlideViewTitleBar.h */,
+				54900C261B83210000801A48 /* BHSlideViewTitleBar.m */,
+				54900C271B83210000801A48 /* UIScrollView+BHForceStop.h */,
+				54900C281B83210000801A48 /* UIScrollView+BHForceStop.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		549D8DC01B79F02000F6BDAD = {
 			isa = PBXGroup;
 			children = (
@@ -92,8 +105,8 @@
 		549D8DCB1B79F02000F6BDAD /* BHSlideView */ = {
 			isa = PBXGroup;
 			children = (
+				54900C221B8320C900801A48 /* Classes */,
 				54C4DF971B83120C00672E3B /* logo.png */,
-				549D8DF21B79F04900F6BDAD /* views */,
 				549D8DD01B79F02000F6BDAD /* AppDelegate.h */,
 				549D8DD11B79F02000F6BDAD /* AppDelegate.m */,
 				549D8DD31B79F02000F6BDAD /* ViewController.h */,
@@ -130,19 +143,6 @@
 				549D8DE71B79F02000F6BDAD /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		549D8DF21B79F04900F6BDAD /* views */ = {
-			isa = PBXGroup;
-			children = (
-				549D8DF31B79F05A00F6BDAD /* BHSlidePageView.h */,
-				549D8DF41B79F05A00F6BDAD /* BHSlidePageView.m */,
-				549D8DF51B79F05A00F6BDAD /* BHSlideViewTitleBar.h */,
-				549D8DF61B79F05A00F6BDAD /* BHSlideViewTitleBar.m */,
-				549D8DF71B79F05A00F6BDAD /* UIScrollView+BHForceStop.h */,
-				549D8DF81B79F05A00F6BDAD /* UIScrollView+BHForceStop.m */,
-			);
-			name = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,12 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				549D8DFB1B79F05A00F6BDAD /* UIScrollView+BHForceStop.m in Sources */,
 				549D8DD51B79F02000F6BDAD /* ViewController.m in Sources */,
 				549D8DD21B79F02000F6BDAD /* AppDelegate.m in Sources */,
-				549D8DF91B79F05A00F6BDAD /* BHSlidePageView.m in Sources */,
-				549D8DFA1B79F05A00F6BDAD /* BHSlideViewTitleBar.m in Sources */,
 				549D8DCF1B79F02000F6BDAD /* main.m in Sources */,
+				54900C2B1B83210000801A48 /* UIScrollView+BHForceStop.m in Sources */,
+				54900C2A1B83210000801A48 /* BHSlideViewTitleBar.m in Sources */,
+				54900C291B83210000801A48 /* BHSlidePageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

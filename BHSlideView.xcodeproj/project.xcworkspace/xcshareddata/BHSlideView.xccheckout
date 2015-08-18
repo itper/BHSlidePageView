@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2FF0E216-153B-41DF-B984-AE904C7ED0B1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>751404157E3E4FFE90B30371F4445746C39C1CDC</key>
+		<string>github.com:itper/BHObjection.git</string>
+		<key>826B5D35F6F165F05DA58CED0EF3015E40501F17</key>
+		<string>github.com:itper/BHSlidePageView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BHSlideView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>751404157E3E4FFE90B30371F4445746C39C1CDC</key>
+		<string>../../..</string>
+		<key>826B5D35F6F165F05DA58CED0EF3015E40501F17</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:itper/BHSlidePageView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>826B5D35F6F165F05DA58CED0EF3015E40501F17</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>751404157E3E4FFE90B30371F4445746C39C1CDC</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>826B5D35F6F165F05DA58CED0EF3015E40501F17</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BHSlideView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
