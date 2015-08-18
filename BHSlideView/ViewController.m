@@ -114,7 +114,7 @@
     return YES;
 }
 -(CGFloat)scalingForSelected{
-    return 1;
+    return 1.2;
 }
 -(CGFloat)scaling{
     return 1;
