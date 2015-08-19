@@ -102,6 +102,7 @@
     return [self itemWith:bar index:index];
 }
 -(CGFloat)cursorHeight:(BHTitleBar*)bar index:(NSInteger)index{
+    [UIColor yellowColor];
     return 3;
 }
 -(BOOL)cursorAnimation:(BHTitleBar*)bar{

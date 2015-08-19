@@ -36,3 +36,5 @@
 }
 
 ```
+
+通过BHTitleBarDelegate来配置 title 的颜色字体缩放动画等一些属性,其中注意的是一些 optional 方法需要同时实现,配置动画颜色请指定 RGB 值,不要直接使用类似[UIColor yellowColor]这样的.
