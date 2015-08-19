@@ -41,4 +41,5 @@
 
 ###如何使用
 >下载 Classes 文件
+
 >下载 podspec 文件,本地引用直接在 podfile 中集成
