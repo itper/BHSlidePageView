@@ -1,7 +1,7 @@
 # BHSlidePageView
 
 ###内部实现
-  在 SlideView 内部存在一个 UIScrollView, 在 scrollView 滚动结束后,加载当前 index
+  在 SlideView 内部存在一个UIScrollView, 在 scrollView 滚动结束后,加载当前 index
 以及其左右的 tab, 如果快速滑动,在一些时候, SlidePage 为了流畅显示,将使用 delegate 默认
 返回的占位图,滑动停止后加载视图.
   全局使用三个 view 实例通过来回移动 view 的位置,以及在 delegate 中重置数据达到复用.
